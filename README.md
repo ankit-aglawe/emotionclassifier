@@ -22,6 +22,15 @@ A flexible emotion classifier package with support for multiple models, customiz
 - **Integration with Data Platforms**: Seamless integration with pandas DataFrames.
 - **Extended Post-processing**: Additional utilities for detailed emotion analysis.
 
+## Emotion Labels
+- 😠 Anger
+- 🤢 Disgust
+- 😨 Fear
+- 😊 Joy
+- 😢 Sadness
+- 😲 Surprise
+
+
 ## Installation
 
 You can install the package using pip:
@@ -122,14 +131,6 @@ val_dataset = ...
 # Fine-tune the model
 fine_tune_model(classifier.model, classifier.tokenizer, train_dataset, val_dataset, output_dir='fine_tuned_model')
 ```
-
-## Emotion Labels
-- 😠 Anger
-- 🤢 Disgust
-- 😨 Fear
-- 😊 Joy
-- 😢 Sadness
-- 😲 Surprise
 
 
 ### Running Tests
