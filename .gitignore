@@ -1,0 +1,22 @@
+# .gitignore
+
+# Virtual environment
+.venv/
+
+# pytest cache
+.pytest_cache/
+
+# Other typical Python ignores
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.idea/
+.vscode/
+.DS_Store
