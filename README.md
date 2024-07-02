@@ -1,9 +1,10 @@
 [![python](https://img.shields.io/badge/Python-^3.10-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff) [![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit) 
 
+![Emotion Classifier Logo](assets/EmotionClassifier.png)
+
+
 
 # Emotion Classifier
-
-![Emotion Classifier Logo](assets/EmotionClassifier.png)
 
 A flexible emotion classifier package with support for multiple models, customizable preprocessing, visualization tools, fine-tuning capabilities, and more.
 
@@ -36,7 +37,7 @@ pip install emotionclassifier
 Here's an example of how to use the `EmotionClassifier` to classify a single text:
 
 ```python
-from emotionclassifier.classifier import EmotionClassifier
+from emotionclassifier import EmotionClassifier
 
 # Initialize the classifier with the default model
 classifier = EmotionClassifier()
@@ -63,7 +64,7 @@ print("Batch processing results:", results)
 To visualize the emotion distribution of a text:
 
 ```python
-from emotionclassifier.visualization import plot_emotion_distribution
+from emotionclassifier import plot_emotion_distribution
 
 result = classifier.predict("I am very happy today!")
 plot_emotion_distribution(result['probabilities'], classifier.labels.values())
@@ -83,7 +84,7 @@ Integrate with pandas DataFrames to classify text columns:
 
 ```python
 import pandas as pd
-from emotionclassifier.integration import DataFrameEmotionClassifier
+from emotionclassifier import DataFrameEmotionClassifier
 
 df = pd.DataFrame({
     'text': ["I am very happy today!", "I am so sad."]
@@ -99,7 +100,7 @@ print(df)
 Analyze and plot emotion trends over time:
 
 ```python
-from emotionclassifier.trends import EmotionTrends
+from emotionclassifier import EmotionTrends
 
 texts = ["I am very happy today!", "I am feeling okay.", "I am very sad."]
 trends = EmotionTrends()
