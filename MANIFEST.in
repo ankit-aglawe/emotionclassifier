@@ -1,0 +1,12 @@
+# MANIFEST.in
+
+# Exclude virtual environment and test cache
+exclude .venv
+exclude .pytest_cache
+
+# Include all Python files
+global-include *.py
+
+# Include README and license files
+include README.md
+include LICENSE

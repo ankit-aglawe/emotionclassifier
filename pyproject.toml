@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "emotionclassifier"
+version = "0.1.0"
+description = "A flexible emotion classifier with support for multiple models"
+authors = ["Ankit Aglawe <aglawe.ankit@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+torch = "^2.3.1"
+transformers = "^4.42.3"
+numpy = "^1.19.2"
+pandas = "^2.2.2"
+matplotlib = "^3.9.0"
+click = "^8.1.7"
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.4.2"
+ruff = "^0.5.0"
+pytest = "^8.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
