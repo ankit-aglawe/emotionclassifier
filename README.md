@@ -1,4 +1,4 @@
-[![python](https://img.shields.io/badge/Python-^3.10-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff) [![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit) 
+[![python](https://img.shields.io/badge/Python-3.9|3.10|3.11|3.12|3.13-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org) [![PyPI version](https://badge.fury.io/py/emotionclassifier.svg)](https://badge.fury.io/py/emotionclassifier) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff) [![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
 
 ![Emotion Classifier Logo](assets/EmotionClassifier.png)
 
@@ -122,6 +122,14 @@ val_dataset = ...
 # Fine-tune the model
 fine_tune_model(classifier.model, classifier.tokenizer, train_dataset, val_dataset, output_dir='fine_tuned_model')
 ```
+
+## Emotion Labels
+- 😠 Anger
+- 🤢 Disgust
+- 😨 Fear
+- 😊 Joy
+- 😢 Sadness
+- 😲 Surprise
 
 
 ### Running Tests
