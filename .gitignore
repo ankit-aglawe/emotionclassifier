@@ -20,3 +20,6 @@ venv.bak/
 .idea/
 .vscode/
 .DS_Store
+
+# Distribution files
+dist/
