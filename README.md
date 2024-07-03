@@ -1,4 +1,4 @@
-[![python](https://img.shields.io/badge/Python-3.9|3.10|3.11|3.12|3.13-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org) [![PyPI version](https://badge.fury.io/py/emotionclassifier.svg)](https://badge.fury.io/py/emotionclassifier) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff) [![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit)
+[![python](https://img.shields.io/badge/Python-3.9|3.10|3.11|3.12|3.13-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org) [![PyPI version](https://badge.fury.io/py/emotionclassifier.svg)](https://badge.fury.io/py/emotionclassifier) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff) [![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit) [![Downloads](https://static.pepy.tech/badge/emotionclassifier)](https://pepy.tech/project/emotionclassifier)
 
 ![Emotion Classifier Logo](assets/EmotionClassifier.png)
 
@@ -132,14 +132,21 @@ val_dataset = ...
 fine_tune_model(classifier.model, classifier.tokenizer, train_dataset, val_dataset, output_dir='fine_tuned_model')
 ```
 
+### Logging Configuration
 
-### Running Tests
+By default, the `sentimentpredictor` package logs messages at the `WARNING` level and above. If you need more detailed logging (e.g., for debugging), you can set the logging level to `INFO` or `DEBUG`:
 
-Run the tests using pytest:
+```python
+from sentimentpredictor.logger import set_logging_level
 
-```bash
-poetry run pytest
+# Set logging level to INFO
+set_logging_level('INFO')
+
+# Set logging level to DEBUG
+set_logging_level('DEBUG')
 ```
+
+You can set the logging level to one of the following: `DEBUG`, `INFO`, `WARNING`, `ERROR`, `CRITICAL`.
 
 
 ### License

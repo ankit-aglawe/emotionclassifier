@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "emotionclassifier"
-version = "0.1.1"
+version = "0.1.2"
 description = "A flexible emotion classifier with support for multiple models"
 authors = ["Ankit Aglawe <aglawe.ankit@gmail.com>"]
 license = "MIT"
