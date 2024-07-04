@@ -1,13 +1,13 @@
 [tool.poetry]
 name = "emotionclassifier"
-version = "0.1.2"
+version = "0.1.3"
 description = "A flexible emotion classifier with support for multiple models"
 authors = ["Ankit Aglawe <aglawe.ankit@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 homepage = "https://github.com/ankit-aglawe/emotionclassifier"
 repository = "https://github.com/ankit-aglawe/emotionclassifier"
-keywords = ["emotion classification", "text emotion classification", "emotion analysis", "NLP", "natural language processing", "machine learning", "deep learning", "transformers"]
+keywords = ["emotion classification", "text emotion classification", "emotion prediction python", "emotion analysis", "NLP", "natural language processing", "machine learning", "deep learning", "transformers"]
 
 
 [tool.poetry.dependencies]
