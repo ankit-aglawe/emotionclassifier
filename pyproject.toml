@@ -5,6 +5,10 @@ description = "A flexible emotion classifier with support for multiple models"
 authors = ["Ankit Aglawe <aglawe.ankit@gmail.com>"]
 license = "MIT"
 readme = "README.md"
+homepage = "https://github.com/ankit-aglawe/emotionclassifier"
+repository = "https://github.com/ankit-aglawe/emotionclassifier"
+keywords = ["emotion classification", "text emotion classification", "emotion analysis", "NLP", "natural language processing", "machine learning", "deep learning", "transformers"]
+
 
 [tool.poetry.dependencies]
 python = "^3.9"
@@ -23,3 +27,9 @@ pytest = "^8.2.2"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.urls]
+"Documentation" = "https://github.com/ankit-aglawe/emotionclassifier#readme"
+"Changelog" = "https://github.com/ankit-aglawe/emotionclassifier/releases"
+"Source" = "https://github.com/ankit-aglawe/emotionclassifier"
+"Tracker" = "https://github.com/ankit-aglawe/emotionclassifier/issues"
