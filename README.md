@@ -4,7 +4,7 @@
 
 
 
-# Emotion Classifier
+# Text Emotion Classifier
 
 A flexible emotion classifier package with support for multiple models, customizable preprocessing, visualization tools, fine-tuning capabilities, and more.
 
@@ -156,3 +156,16 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgements
 
 This package uses pre-trained models from the [Hugging Face Transformers library](https://github.com/huggingface/transformers).
+
+
+## Contributing
+
+Contributions are welcome! Please see the [CONTRIBUTING](CONTRIBUTING.md) file for guidelines on how to contribute to this project.
+
+
+## Links
+
+- [Documentation](https://github.com/ankit-aglawe/emotionclassifier#readme)
+- [PyPI](https://pypi.org/project/emotionclassifier/)
+- [Source Code](https://github.com/ankit-aglawe/emotionclassifier)
+- [Issue Tracker](https://github.com/ankit-aglawe/emotionclassifier/issues)
