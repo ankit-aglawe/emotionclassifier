@@ -1,6 +1,8 @@
 [![python](https://img.shields.io/badge/Python-3.9|3.10|3.11|3.12|3.13-3776AB.svg?style=flat&logo=python&logoColor=white)](https://www.python.org) ![PyPI - Version](https://img.shields.io/pypi/v/emotionclassifier) [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black) [![Ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/astral-sh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff) [![security: bandit](https://img.shields.io/badge/security-bandit-yellow.svg)](https://github.com/PyCQA/bandit) [![Downloads](https://static.pepy.tech/badge/emotionclassifier)](https://pepy.tech/project/emotionclassifier)
 
-![Emotion Classifier Logo](https://github.com/ankit-aglawe/emotionclassifier/blob/main/assets/logo.jpeg)
+
+![Emotion Classifier Logo](https://raw.githubusercontent.com/ankit-aglawe/emotionclassifier/main/assets/EmotionClassifier-bg.jpeg)
+
 
 # Text Emotion Classifier
 
